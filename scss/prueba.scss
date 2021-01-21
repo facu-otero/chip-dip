@@ -1,6 +1,6 @@
 $color-1: blanchedalmond;
 $color-2: black;
-$color-fondo: #222831;
+$color-fondo: #222831 !:default;
 $font-primary: 'Montserrat', sans-serif;
 
 :root {	
@@ -292,3 +292,7 @@ a{
 	padding: 1rem;
 	color: $color-1;
 }
+
+@import style_contacto.css;
+@import style_food.css;
+@import style_servicios.css;
