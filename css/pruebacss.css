@@ -1,9 +1,12 @@
+@import url(style_contacto.css);
+@import url(style_food.css);
+@import url(style_servicios.css);
 :root {
   font-size: 16px;
   background-color: #f4f4f2;
   font-weight: normal;
   font-style: normal;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: auto; }
 
 header {
@@ -48,7 +51,7 @@ body {
   background-color: #222831;
   font-weight: normal;
   font-style: normal;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: "Montserrat", sans-serif; }
 
 menu {
   display: flex;
