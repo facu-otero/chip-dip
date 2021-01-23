@@ -17,4 +17,5 @@
 .stock, .personal, .cm, .carta{
     border  : dotted 2px #bedbbb;
     border-radius: 1rem;
-    padding: 2rem;
+	padding: 2rem;
+}

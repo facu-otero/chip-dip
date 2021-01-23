@@ -278,17 +278,3 @@ margin: auto;
 /*servicios*/
 
 
-.stock, .personal, .cm, .carta{
-    border  : dotted 2px #bedbbb;
-    border-radius: 1rem;
-	padding: 2rem;
-}
-.pagina-servicios{
-    background-color: #222222;
-	
-	background-position: top center;
-	background-size: 100vw;
-	position: relative;
-	padding: 1rem;
-	color: cornsilk;
-}
