@@ -128,7 +128,7 @@ section a {
 
 
 
-main{
+main, article{
 	padding: 20px;
 }
 
@@ -152,7 +152,7 @@ footer{
 
 .parte-con-fondo{
 	background-color: black;
-	background-image: url(Logos/tabla.jpg);
+	background-image: url(../Logos/tabla.jpg);
 	background-position: top center;
 	background-size: cover;
 	background-repeat: repeat;
@@ -208,7 +208,7 @@ footer{
 
 .ir-al-formulario{
 	align-items: center;
-	color: rgb(84, 66, 243);
+	color: rgb(244, 244, 248);
 	text-align: center;
 	padding: 0.5rem;
 	display: flex;
@@ -223,8 +223,9 @@ footer{
 	align-items: center;
 	align-content: center;
 	display: block;
-	
+}	
 .home{
+
 	padding-top: 2rem;
 	padding-left: 45vw;
 }
@@ -252,16 +253,8 @@ footer{
 	padding: 2rem;
 }
 
-.conteiner-navbar, nav{
-	position: fixed;
-	margin-top: 0;
-	
-}
-.index-contacto{
-	background-color: rgb(143, 107, 8);
-	border-radius: 0.5rem;
-	padding: 0.8rem
-}
+
+
 
 a{
 	text-decoration: none;

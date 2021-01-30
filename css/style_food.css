@@ -23,6 +23,7 @@
 
 	width: 100%;
 	height: auto;
+	max-height: fit-content;
 	display: grid;
 	gap: 1rem;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -33,3 +34,4 @@
 	width: 100%;
 	height: auto;
 }
+
