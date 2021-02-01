@@ -23,15 +23,30 @@
 
 	width: 100%;
 	height: auto;
-	max-height: fit-content;
 	display: grid;
 	gap: 1rem;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: auto;
-
 }
-.foodstyling{
+
+.fotos-food> img{
 	width: 100%;
-	height: auto;
+	height: 90%;
+	object-fit: cover;
+	filter: brightness(85%);
 }
 
+.fotos-food> img:hover{
+	filter:brightness(100%);
+	animation: escalar 1.5s infinite alternate;
+	cursor: pointer;
+}
+
+@keyframes escalar{
+	to {
+		transform: scale(1);
+	}
+	from {
+		transform: scale(1.05);
+	}
+}
