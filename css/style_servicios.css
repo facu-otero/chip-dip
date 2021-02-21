@@ -19,3 +19,13 @@
     border-radius: 1rem;
 	padding: 2rem;
 }
+
+.parte-con-fondo{
+	background-color: black;
+	background-image: url(../Logos/Fondo_cortado.JPG);
+	background-position: top center;
+	background-size: cover;
+	background-repeat: repeat;
+	padding: 1rem;
+	color: cornsilk;
+	text-shadow: #111 0px 0px 10px;

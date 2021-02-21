@@ -109,7 +109,7 @@ h2{
 h1{
 	margin-top: 5rem;
 	text-align: center;
-	padding: 5rem;
+	padding-top: 5rem;
 }
 
 section a {
@@ -152,7 +152,7 @@ footer{
 
 .parte-con-fondo{
 	background-color: black;
-	background-image: url(../Logos/tabla.jpg);
+	background-image: url(../Logos/Fondo_cortado.JPG);
 	background-position: top center;
 	background-size: cover;
 	background-repeat: repeat;
@@ -185,16 +185,7 @@ footer{
 	padding: 0.8rem;	
 }
 
-.index-recuadros>h3{
-	font-size: 1.2rem;
-	text-decoration: underline;	
-}
 
-.index-recuadros{
-	border  : dotted 2px #bedbbb;
-	border-radius: 1rem;
-	padding: 2rem;
-}
 .descripcion{
 	padding: 2rem;
 }
@@ -206,16 +197,7 @@ footer{
 	color: oldlace;
 }
 
-.ir-al-formulario{
-	align-items: center;
-	color: rgb(244, 244, 248);
-	text-align: center;
-	padding: 0.5rem;
-	display: flex;
-	flex-direction: inherit;
-	padding-left: 40vw;
-	text-decoration: none;
-}
+
 
 .clientes{
 	margin: auto;
@@ -224,11 +206,6 @@ footer{
 	align-content: center;
 	display: block;
 }	
-.home{
-
-	padding-top: 2rem;
-	padding-left: 45vw;
-}
 
 .logo{
 	width: 10%;
@@ -261,23 +238,24 @@ a{
 	color: cornsilk;
 
 }
-.Home-1>a{
 
-text-align: center;
-margin: auto;
-
-}
 .card{
-	padding: 1rem;
-	background-color: #222222;
-}
-.tarjetas{
-	padding:1rem;
+	
+	background-color: #302d2d;
 }
 
-  @media screen and (max-width: 1046px) {
-	.tarjetas {
-	  min-width: 345px;
-	  padding: 1rem;
-	}
-  }
+.index-contacto a{
+	display: flex;
+	align-items: center;
+}
+.index-contacto .home a{
+	padding-top: 3rem;
+	display: flex;
+	align-items: center;
+}
+
+.index-contacto .ir-al-formulario a{
+	display: grid;
+	grid-template-columns: 1fr;
+	align-items: center;
+}
