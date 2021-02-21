@@ -267,7 +267,17 @@ text-align: center;
 margin: auto;
 
 }
+.card{
+	padding: 1rem;
+	background-color: #222222;
+}
+.tarjetas{
+	padding:1rem;
+}
 
-/*servicios*/
-
-
+  @media screen and (max-width: 1046px) {
+	.tarjetas {
+	  min-width: 345px;
+	  padding: 1rem;
+	}
+  }
