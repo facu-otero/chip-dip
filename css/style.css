@@ -244,18 +244,50 @@ a{
 	background-color: #302d2d;
 }
 
-.index-contacto a{
-	display: flex;
-	align-items: center;
-}
-.index-contacto .home a{
+
+.home{
 	padding-top: 3rem;
-	display: flex;
-	align-items: center;
+	width: 100%;
+	text-align: center;
+	justify-content: center;
+	
+}
+.ir-al-formulario{
+	width: 100%;
+	text-align: center;
+	justify-content: center;
 }
 
-.index-contacto .ir-al-formulario a{
-	display: grid;
-	grid-template-columns: 1fr;
-	align-items: center;
+.encabezado{
+	font-weight: bolder;
+	font-size: 18px;
+}	
+.food-encabezado{
+	font-weight: bolder;
+	font-size: 18px;
 }
+
+.navbar_index{
+	padding-bottom: 6rem;
+	
+}
+@media (max-width: 576px) {
+
+.navbar_index{
+	padding-bottom: 8rem;
+}
+}
+.carrousel-img-index{
+
+	font-weight: bolder;
+	font-size: 40px;
+	
+	text-shadow: -2px -2px -2px #000;
+	
+}
+.carousel-inner img {
+	
+	height: 45vw;
+	width: 90%;
+	object-fit: cover;
+  }

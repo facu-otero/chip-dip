@@ -14,10 +14,7 @@
 	margin: 0;
     padding: 0;
 }
-.home{
-	padding-top: 2rem;
-	padding-left: 45vw;
-}
+
 .parte-con-fondo{
 	background-color: black;
 	background-image: url(../photos/Fondo2.jpg);
